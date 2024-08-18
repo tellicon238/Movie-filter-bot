@@ -17,7 +17,7 @@ API_ID = int(environ.get('API_ID', '11352440'))
 API_HASH = environ.get('API_HASH', '0363a7c12ed2864e55f397c789097478')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7421619579:AAFYeVHwnsVkoCK_AtmDFfFzMAsWjNzB2rs')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '185430601').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '11352440').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/Tellicon")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002159886992'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/tellicon12')
@@ -36,7 +36,7 @@ STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQe
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-100'))
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/Movie_Url_link_downloader/17")
+TUTORIAL = environ.get("TUTORIAL", "")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "0363a7c12ed2864e55f397c789097478")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'shortslink.in')
