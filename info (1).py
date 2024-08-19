@@ -17,7 +17,7 @@ API_ID = int(environ.get('API_ID', '11352440'))
 API_HASH = environ.get('API_HASH', '0363a7c12ed2864e55f397c789097478')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7421619579:AAFYeVHwnsVkoCK_AtmDFfFzMAsWjNzB2rs')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1815430601').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '11352440').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/Tellicon")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002159886992'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/tellicon12')
